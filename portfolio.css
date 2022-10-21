@@ -1,0 +1,251 @@
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'PT Mono', monospace;
+        color: #e9f5d8;
+    }
+
+    
+
+    #contents{
+        color: #e9f5d8;
+        background: linear-gradient(-45deg, #29099b, #941736, #05386B, #a0194d);
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+    }
+
+    @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
+
+    #name{
+        font-family: 'PT Mono', monospace;
+        color: #e9f5d8;
+    }
+
+
+
+    
+
+
+
+    #navibar{
+        background-color: #05386B;
+    }
+
+    #navbar-lg{
+        background-color: #05386B;
+        animation: navdrop 0.5s ease-out;
+        transform: translateY(-100%);
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes navdrop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+    }
+
+
+
+    #home, #about, #projects, #tools, #contact, #nav_name{
+        color: #e9f5d8;
+    }
+
+    #home-nav, #about-nav, #projects-nav, #tools-nav, #contact-nav{
+        color: #e9f5d8;
+    }
+    
+    #welcome{
+        font-size: 8vw;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    h2{
+        font-family: 'Monoton', cursive;
+    }
+
+
+    .greeting{
+        font-size: 1.5vw;
+        letter-spacing: 1.5vw;
+    }
+
+    #description{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5vw;
+    }
+
+    
+
+
+    #footer{
+        background-color: #05386B;
+    }
+
+    /* sm */
+
+    #welcome1{
+        font-size: 15vw;
+    }
+
+    .about1{
+        font-size: 5vw;
+    }
+
+    #description1{
+        font-size: 3.5vw;
+    }
+
+    #about-me-s{
+        font-family: 'Caveat', cursive;
+        font-size: 5vw;
+        line-height: 2;
+    }
+
+    #about-me-m{
+        font-family: 'Caveat', cursive;
+        line-height: 2;
+        font-size: 2vw;
+        animation: opacity-1 2s ease 1s;
+    }
+
+    @keyframes opacity-1 {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+
+    #email-link{
+        color: #e9f5d8;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    }
+
+    #welcome, #welcome1{
+        overflow: hidden; 
+        border-right: 0.25vw solid #e9f5d8;
+        white-space: nowrap; 
+        letter-spacing: .15em; 
+        animation: 
+        typing 10s steps(7),
+        blink-caret .75s step-end infinite;
+        animation-delay: 5s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        width: 0%;
+        border-color: transparent;
+    }
+
+    @keyframes typing {
+    0% { width: 0%}
+    10% { width: 90%}
+    100% { width: 90%}
+    }
+
+
+    @keyframes blink-caret {
+    0% { border-color: transparent }
+    50% { border-color: #e9f5d8; }
+    100% { border-color: transparent }
+    }
+
+    #intro{
+        animation: introA 0.5s ease;
+        transform: translateX(500%);
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+    @keyframes introA{
+        0%{transform: translateX(500%);}
+        90%{transform: translateX(-10%);}
+        100%{transform: translateX(0%);}
+    }
+
+    #intro1{
+        animation: introB 0.5s ease;
+        transform: translateX(-500%);
+        animation-fill-mode: forwards;
+        animation-delay: 1.5s;
+    }
+
+    @keyframes introB{
+        0%{transform: translateX(-500%);}
+        90%{transform: translateX(10%);}
+        100%{transform: translateX(0%);}
+    }
+
+    #intro2{
+        animation: introC 1s ease 4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    @keyframes introC{
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+    #card1{
+        animation: float1 4s linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes float1{
+        0%{transform: translateY(0);}
+        33%{transform: translateY(3%);}
+        66%{transform: translateY(-3%);}
+        100%{transform: translateY(0);}
+    }
+
+    #card2{
+        animation: float1 4s linear;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+
+    @keyframes float1{
+        0%{transform: translateY(0);}
+        33%{transform: translateY(3%);}
+        66%{transform: translateY(-3%);}
+        100%{transform: translateY(0);}
+    }
+
+    #card3{
+        animation: float1 4s linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes float1{
+        0%{transform: translateY(0);}
+        33%{transform: translateY(3%);}
+        66%{transform: translateY(-3%);}
+        100%{transform: translateY(0);}
+    }
+
+
+
+
+
+
+
+
