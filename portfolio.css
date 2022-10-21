@@ -244,7 +244,7 @@
 
         #heroku{
             animation: heroku_animation;
-            animation-duration: 2s;
+            animation-duration: 3s;
             animation-timing-function: ease;
             animation-iteration-count: infinite;
         }
@@ -262,7 +262,7 @@
         }
 
         #postman{
-            animation: postman_animation 2s ease;
+            animation: postman_animation 3s ease;
             animation-iteration-count: infinite;
         }
 
@@ -279,7 +279,7 @@
         }
 
         #sublime{
-            animation: sublime_animation 2s ease;
+            animation: sublime_animation 3s ease;
             animation-iteration-count: infinite;
         }
 
@@ -296,7 +296,7 @@
         }
 
         #git{
-            animation: git_animation 2s ease;
+            animation: git_animation 3s ease;
             animation-iteration-count: infinite;
         }
 
@@ -313,9 +313,9 @@
         }
 
         #react{
-            animation: react_animation 2s ease;
+            animation: react_animation 3s ease;
             animation-iteration-count: infinite;
-            animation-delay: 1s;
+            animation-delay: 1.5s;
             
         }
 
@@ -332,9 +332,9 @@
         }
 
         #nodejs{
-            animation: nodejs_animation 2s ease;
+            animation: nodejs_animation 3s ease;
             animation-iteration-count: infinite;
-            animation-delay: 1s;
+            animation-delay: 1.5s;
         }
 
         @keyframes nodejs_animation{
@@ -350,9 +350,9 @@
         }
 
         #expressjs{
-            animation: expressjs_animation 2s ease;
+            animation: expressjs_animation 3s ease;
             animation-iteration-count: infinite;
-            animation-delay: 1s;
+            animation-delay: 1.5s;
         }
 
         @keyframes expressjs_animation{
@@ -368,9 +368,9 @@
         }
 
         #mongodb{
-            animation: mongodb_animation 2s ease;
+            animation: mongodb_animation 3s ease;
             animation-iteration-count: infinite;
-            animation-delay: 1s;
+            animation-delay: 1.5s;
         }
 
         @keyframes mongodb_animation{
